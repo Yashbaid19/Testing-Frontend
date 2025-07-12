@@ -1,23 +1,29 @@
 body {
   font-family: sans-serif;
-  background: #f8fafc;
-  color: #111;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
   padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+input, button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.75rem;
 }
 
 button {
-  padding: 10px 20px;
-  background: #111;
+  background: #000;
   color: white;
   border: none;
-  margin-top: 1rem;
   cursor: pointer;
-  border-radius: 5px;
-}
-
-pre {
-  background: #eee;
-  padding: 1rem;
-  margin-top: 1rem;
-  border-radius: 5px;
 }
