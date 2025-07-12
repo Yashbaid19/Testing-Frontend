@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  background: #f8fafc;
+  color: #111;
+  padding: 2rem;
+}
+
+button {
+  padding: 10px 20px;
+  background: #111;
+  color: white;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+pre {
+  background: #eee;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
