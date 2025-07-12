@@ -2,17 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SkillSwap Test</title>
-  <link rel="stylesheet" href="./style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skill Swap | Login</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="app">
-    <h1>Welcome to SkillSwap 🔄</h1>
-    <button onclick="fetchData()">Get Users</button>
-    <pre id="output">Click to fetch from backend</pre>
+  <div class="container">
+    <h1>Login to SkillSwap</h1>
+    <form id="loginForm">
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <p id="response"></p>
   </div>
 
-  <script src="./main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
